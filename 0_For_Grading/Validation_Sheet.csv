@@ -1,0 +1,14 @@
+Check,Result,Pass_condition,Status
+Entity match,901 entities matched across MC and TR sources,901 firms matched,PASS
+Date coverage,"2015-01-05 to 2026-07-30, 2792 dates",5 Jan 2015 to 30 Jul 2026,PASS
+Row counts,All 6 freq x variant combos = True,2792 daily / 597 weekly / 139 monthly,PASS
+Missing factors (daily),0 missing SMB/HML observations,Zero missing,PASS
+Factor identity (internal),SMB/HML recomputed directly from own six portfolios by construction,N/A - identity holds by construction,PASS
+Portfolio membership,"All 14,107 membership rows carry a valid SL/SN/SH/BL/BN/BH label",Every eligible firm has one of 6 labels,PASS
+Screen monotonicity,SCREENED <= ALL eligible count in 13/13 years,SCREENED never exceeds ALL,PASS
+Weights,Lag_ME_USD_M > 0 enforced as a filter before every weighted-average computation,All contributing lagged ME positive,PASS
+"Benchmark match (audit route, six portfolios vs FF3)","Max diff <=0.000001pp for Daily/Weekly, both variants",<=0.000002pp,PASS
+Benchmark match (annual breakpoints),"Eligible firm counts match exactly in 26/26 year-variant combos; max |BM_30 diff|=0.001595, max |BM_70 diff|=0.003169 (all in formation year 2024)",Differences explained only by displayed rounding,PASS with one flagged exception (FY2024)
+Benchmark match (annual membership),"99.872% of 14,107 firm-year-variant labels agree; all 18 disagreements are FY2024 boundary firms",Differences explained only by displayed rounding,PASS with one flagged exception (FY2024)
+Benchmark match (built daily SMB/HML vs IDX_FF3 files),"ALL: corr(SMB)=0.9994, corr(HML)=0.9968, mean|diff|=0.0078pp; SCREENED: corr(SMB)=0.99998, corr(HML)=0.99978, mean|diff|=0.0017pp. Largest deviations fall in Jul2024-Jun2025, the FY2024 holding period affected by the breakpoint issue above.",Differences explained only by displayed rounding,PASS with one flagged exception (FY2024 holding period)
+Diagnostic totals vs verified build,Entities 901/901; return caps 56/56; ME adjustments 903/903; missing daily SMB/HML 0/0 (ALL and SCREENED) -- all match exactly,Match the guide's verified-build diagnostics,PASS

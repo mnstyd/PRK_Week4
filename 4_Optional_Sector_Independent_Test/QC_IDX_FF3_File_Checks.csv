@@ -1,0 +1,5 @@
+Frequency,Variant,Rows,Expected_Rows,Row_Count_Match,Start_Date,End_Date,Duplicate_Dates,Dates_Sorted_Ascending,Missing_MktRF,Missing_SMB,Missing_HML,Missing_RF,SMB_mean_pct,SMB_sd_pct,HML_mean_pct,HML_sd_pct,MktRF_mean_pct
+Daily,ALL,2792,2792,True,2015-01-05,2026-07-30,0,True,0,0,0,0,0.032094,0.829286,0.040798,0.847797,0.014965
+Daily,SCREENED,2792,2792,True,2015-01-05,2026-07-30,0,True,0,0,0,0,0.018575,0.818092,0.045285,0.826486,0.014861
+Weekly,ALL,597,597,True,2015-01-09,2026-07-30,0,True,0,0,0,0,0.156703,1.917624,0.199963,2.116979,0.070852
+Weekly,SCREENED,597,597,True,2015-01-09,2026-07-30,0,True,0,0,0,0,0.092919,1.864214,0.221726,2.144804,0.070358

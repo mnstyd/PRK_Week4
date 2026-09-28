@@ -1,0 +1,7 @@
+Frequency,Variant,Rows_six_portfolios,Expected_rows,Row_count_pass,Rows_matched_to_FF3,Unmatched_dates,Duplicate_dates,Missing_SMB_in_FF3_file,Missing_HML_in_FF3_file,Max_abs_SMB_difference_pp,Max_abs_HML_difference_pp,Identity_pass_tol_0.000002
+Daily,ALL,2792,2792,True,2792.0,0.0,0,0.0,0.0,1.000000000070389e-06,1.0000000003618226e-06,True
+Daily,SCREENED,2792,2792,True,2792.0,0.0,0,0.0,0.0,1.000000000139778e-06,1.0000000001675335e-06,True
+Weekly,ALL,597,597,True,597.0,0.0,0,0.0,0.0,1.000000000139778e-06,1.0000000010279564e-06,True
+Weekly,SCREENED,597,597,True,597.0,0.0,0,0.0,0.0,1.0000000002508003e-06,1.0000000008059118e-06,True
+Monthly,ALL,139,139,True,,,0,,,,,NOT CHECKABLE - IDX_FF3_Monthly file not supplied
+Monthly,SCREENED,139,139,True,,,0,,,,,NOT CHECKABLE - IDX_FF3_Monthly file not supplied
