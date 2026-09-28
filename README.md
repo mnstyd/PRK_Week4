@@ -31,8 +31,9 @@
 
 **Course:** Praktikum Riset Keuangan — Week 4 Assignment
 **Author:** Iman Satyo Adi (2306208262) — [github.com/mnstyd](https://github.com/mnstyd)
-**Repository:** _(add link once pushed, e.g. github.com/mnstyd/indonesia-smb-hml-replication)_
+**Repository:** _(https://github.com/mnstyd/PRK_Week4)_
 **Research lead / guide author:** Zaäfri Husodo
+**Research lead / guide author:** Budi Prasetyo
 
 ## Objective
 
